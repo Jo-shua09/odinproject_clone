@@ -407,7 +407,7 @@ section.course {
   padding: 0;
 }
 .course-bg {
-  padding: 7rem;
+  padding: 7rem 5rem;
   color: #4b5563;
   color: RGB(75, 85, 99);
   background-color: #f3f4f6;
@@ -423,11 +423,12 @@ section.course {
   display: flex;
   flex-wrap: wrap;
   gap: 3rem;
+  width: 100%;
   padding-bottom: 10rem;
 }
 .course .course-container .course-box {
   border-radius: 0.5rem;
-  padding: 2rem;
+  padding: 4rem 2rem 2rem 2rem;
   flex: 1 1 30rem;
   height: 25rem;
   cursor: pointer;
