@@ -33,6 +33,7 @@
     width: 50%;
   }
 }
+
 @media (max-width: 768px) {
   .home .home-content .content-desc h1 {
     font-size: 4rem;
@@ -102,6 +103,7 @@
     width: 60%;
   }
 }
+
 @media (max-width: 450px) {
   html {
     font-size: 50%;
