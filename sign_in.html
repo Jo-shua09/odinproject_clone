@@ -169,6 +169,60 @@
     </nav>
     <!-- RESPONSIVE HEADER -->
 
+    <!-- SIGN IN SECTION STARTS -->
+    <section class="sign_in" id="sign_in">
+      <div class="signIn">
+        <div class="signIn-head">
+          <h3>Sign in to your account</h3>
+          <p>Or <a href="sign_up.html"> sign in to your existing account</a></p>
+        </div>
+        <div class="signIn_form">
+          <form name="myForm" method="post" action="abc.jsp">
+            <label for="email">Email address</label>
+            <input type="email" name="email" />
+
+            <label for="password">Password</label>
+            <input type="password" name="password" />
+          </form>
+
+          <div class="rem_for">
+            <div class="remember">
+              <input type="checkbox" name="remember" id="" />
+              <label for="remember">Remember me</label>
+            </div>
+            <div class="forgot">
+              <a href="https://www.theodinproject.com/users/password_reset/new"
+                >Forgot your password?</a
+              >
+            </div>
+          </div>
+
+          <div class="signIn_btn">
+            <input
+              type="submit"
+              onclick="return validateEmail()"
+              value="sign in"
+            />
+          </div>
+
+          <div class="options">
+            <p>Or continue with</p>
+            <div class="opt">
+              <a
+                href="https://github.com/login/oauth/authorize?client_id=673c1e452ff4aca9fcd3&redirect_uri=https%3A%2F%2Fwww.theodinproject.com%2Fusers%2Fauth%2Fgithub%2Fcallback&response_type=code&scope=user%3Aemail&state=b1122be6b5a03f90957162e7fd40ab4624e2d062b17d79ad"
+                class="fa-brands fa-github"
+              ></a>
+              <a
+                href="https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=985682512846-fvfisi67ppmnbk7m9qtvkjdfnskd777n.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fwww.theodinproject.com%2Fusers%2Fauth%2Fgoogle%2Fcallback&response_type=code&scope=email%20profile&state=101c3b20e47fe883a608c1051b6f92ddf9e74cff0114fd34&service=lso&o2v=1&theme=mn&ddm=0"
+                class="fa-brands fa-google"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SIGN IN SECTION ENDS -->
+
     <!-- SUPPORT SECTION STARTS -->
     <section class="support">
       <div class="support-us">

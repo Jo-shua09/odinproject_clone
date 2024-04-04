@@ -63,7 +63,8 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
-i {
+i,
+input {
   cursor: pointer;
 }
 h2 {
@@ -994,6 +995,202 @@ section.contact {
 }
 
 /* ABOUT PAGE STYLES ENDS */
+
+/* SIGN IN PAGE STYLES STARTS */
+section.sign_in {
+  padding: 0;
+}
+.signIn {
+  padding: 15rem 0;
+  padding-bottom: 5rem;
+  text-align: center;
+  width: 100%;
+  color: #4b5563;
+  color: RGB(75, 85, 99);
+  background-color: #f3f4f6;
+  background-color: RGB(243, 244, 246);
+}
+.signIn-head {
+  margin-bottom: 3rem;
+}
+.signIn-head h3 {
+  text-transform: none;
+  font-weight: var(--weight4);
+  font-size: var(--size-6);
+  padding-bottom: 1rem;
+  color: #374151;
+}
+.signIn-head p {
+  text-transform: none;
+  font-weight: var(--weight2);
+  font-size: var(--size-1);
+}
+.signIn-head p a {
+  color: #4b5563;
+}
+.signIn-head p a:hover {
+  text-decoration: none;
+}
+.signIn_form {
+  background-color: var(--white);
+  border-radius: 0.5rem;
+  padding: 3rem;
+  text-align: center;
+  width: 35%;
+  margin: 0 auto;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.signIn_form form label {
+  font-size: var(--size-1);
+  font-weight: var(--weight2);
+  text-align: left;
+  text-transform: none;
+  float: left;
+  padding-bottom: 0.5rem;
+}
+.signIn_form form input {
+  display: block;
+  width: 100%;
+  height: 4.5rem;
+  padding-left: 1rem;
+  color: #4b5563;
+  color: RGB(75, 85, 99);
+  font-size: var(--size-3);
+  font-weight: var(--weight2);
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+}
+.signIn_form form input:is(:hover, :focus-visible) {
+  border: 0.2rem solid rgba(0, 0, 255, 0.787);
+}
+.rem_for {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin: 2rem 0;
+  align-items: center;
+  text-align: center;
+}
+input[type="checkbox"] {
+  position: relative;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 1.8rem;
+  height: 1.8rem;
+  border: 1px solid #115e59;
+  border-radius: 0.2rem;
+}
+input[type="checkbox"]:after {
+  position: absolute;
+  content: "";
+  top: 20%;
+  left: 20%;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-color: var(--white);
+  opacity: 0;
+}
+input[type="checkbox"]:checked {
+  background-color: #115e59;
+}
+input[type="checkbox"]:checked::after {
+  opacity: 1;
+}
+.rem_for .remember label {
+  font-size: var(--size-1);
+  padding-left: 0.3rem;
+  font-weight: normal;
+  text-transform: none;
+}
+.rem_for .forgot a:hover {
+  text-decoration: none;
+}
+.forgot-2 {
+  text-align: center;
+  margin: 2rem 0;
+  justify-content: center;
+}
+.forgot-2 a,
+.rem_for .forgot a {
+  font-size: var(--size-1);
+  padding-left: 0.3rem;
+  font-weight: var(--weight1);
+  color: var(--c2);
+  text-decoration: underline;
+  text-transform: none;
+}
+.forgot-2 a {
+  text-decoration: none;
+}
+.forgot-2 a:hover {
+  text-decoration: underline;
+}
+.signIn_form .signIn_btn input {
+  display: block;
+  width: 100%;
+  height: 4.5rem;
+  color: var(--white);
+  font-size: var(--size-3);
+  font-weight: var(--weight2);
+  margin-bottom: 2rem;
+  border-radius: 0.5rem;
+  background-color: #115e59;
+  border: 0.1rem solid rgba(0, 0, 0, 0.2);
+}
+.signIn_form .signIn_btn input:hover {
+  letter-spacing: 0.2rem;
+}
+.signIn_form .options {
+  margin: 1rem 0;
+}
+.signIn_form .options p {
+  font-size: var(--size-2);
+  position: relative;
+  text-transform: none;
+}
+.signIn_form .options p::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  width: 32%;
+  height: 0.1rem;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.signIn_form .options p::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  right: 0;
+  width: 32%;
+  height: 0.1rem;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.signIn_form .options .opt {
+  display: flex;
+  margin-top: 1rem;
+  text-align: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.signIn_form .options .opt a {
+  width: 100%;
+  color: var(--c2);
+  font-size: var(--size-4);
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+.signIn_form .options .opt a:hover {
+  background-color: #115e59;
+  color: var(--white);
+}
+
+/* SIGN IN PAGE STYLES ENDS */
 
 /* LOADER SECTION */
 .loader-container {

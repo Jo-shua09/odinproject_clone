@@ -29,6 +29,9 @@
   html {
     font-size: 55%;
   }
+  .signIn_form {
+    width: 50%;
+  }
 }
 @media (max-width: 768px) {
   .home .home-content .content-desc h1 {
@@ -95,6 +98,9 @@
     align-items: center;
     justify-content: center;
   }
+  .signIn_form {
+    width: 60%;
+  }
 }
 @media (max-width: 450px) {
   html {
@@ -123,5 +129,8 @@
   .choose-course::before,
   .choose-course::after {
     width: 13%;
+  }
+  .signIn_form {
+    width: 90%;
   }
 }
