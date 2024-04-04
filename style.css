@@ -1022,7 +1022,7 @@ section.sign_in {
 }
 .signIn-head p {
   text-transform: none;
-  font-weight: var(--weight2);
+  font-weight: var(--weight1);
   font-size: var(--size-1);
 }
 .signIn-head p a {
@@ -1055,8 +1055,8 @@ section.sign_in {
   padding-left: 1rem;
   color: #4b5563;
   color: RGB(75, 85, 99);
-  font-size: var(--size-3);
-  font-weight: var(--weight2);
+  font-size: var(--size-1);
+  font-weight: var(--weight1);
   margin-bottom: 2rem;
   border-radius: 0.5rem;
   border: 0.1rem solid rgba(0, 0, 0, 0.2);
