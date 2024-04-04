@@ -69,6 +69,11 @@
     background-color: var(--c1);
     color: var(--white);
   }
+  section.contact {
+    padding: 13rem 9%;
+  }
+
+  section.about,
   section.path {
     padding: 13rem 9%;
     padding-bottom: 1%;
@@ -79,6 +84,14 @@
   .choose-course::before,
   .choose-course::after {
     width: 20%;
+  }
+  .expect {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 }
 @media (max-width: 450px) {
@@ -91,8 +104,11 @@
   .support .support-us .support-contents p {
     width: 100%;
   }
-  section.path {
+  section.contact {
     padding: 13rem 5%;
+  }
+  section.about,
+  section.path {
     padding-bottom: 1%;
   }
   .foundation-container .up-content .content {

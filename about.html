@@ -38,10 +38,387 @@
     />
 
     <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <title>About | The Odin Project</title>
   </head>
   <body>
+    <!-- HEADER SECTION STARTS -->
+    <header>
+      <div class="header-container">
+        <div class="header-logo">
+          <a href="index.html">
+            <div class="logo">
+              <img src="images/odin-icon.svg" alt="" />
+            </div>
+            <div class="logo-name">
+              <h3>the odin project</h3>
+            </div>
+          </a>
+        </div>
+        <div class="header-nav">
+          <div class="header-links">
+            <a href="paths.html">all paths</a>
+            <a href="about.html" class="active">about</a>
+            <a href="https://discord.com/invite/fbFCkYabZB">community</a>
+            <a href="https://www.theodinproject.com/support_us">support us</a>
+            <a href="sign_in.html">sign in</a>
+
+            <div class="brightness">
+              <i class="fas fa-sun"></i>
+            </div>
+          </div>
+          <div class="header-btns">
+            <a href="sign_up.html" class="btn-1">get started</a>
+          </div>
+        </div>
+        <div class="open-nav">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </header>
+    <!-- HEADER SECTION ENDS -->
+
+    <!-- RESPONSIVE HEADER -->
+    <nav class="navbar">
+      <div class="resp-container">
+        <div class="resp-logo">
+          <a href="">
+            <div class="logo">
+              <img src="images/odin-icon.svg" alt="" />
+            </div>
+            <div class="logo-name">
+              <h3>the odin project</h3>
+            </div>
+          </a>
+        </div>
+
+        <div class="close-nav">
+          <i class="fas fa-times"></i>
+        </div>
+
+        <div class="resp-nav">
+          <div class="resp-links">
+            <a href="index.html">
+              <div class="links">
+                <i class="fas fa-house"></i>
+                <span>home</span>
+              </div>
+            </a>
+
+            <a href="paths.html">
+              <div class="links">
+                <i class="fas fa-map"></i>
+                <span>all paths</span>
+              </div>
+            </a>
+
+            <a href="about.html" class="active">
+              <div class="links">
+                <i class="fas fa-circle-info"></i>
+                <span>about</span>
+              </div>
+            </a>
+
+            <a href="https://www.theodinproject.com/support_us">
+              <div class="links">
+                <i class="fas fa-donate"></i>
+                <span>support us</span>
+              </div>
+            </a>
+
+            <a href="https://discord.com/invite/fbFCkYabZB">
+              <div class="links">
+                <i class="fas fa-comments"></i>
+                <span>community</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="divider"></div>
+
+          <div class="other-links">
+            <a href="sign_up.html">
+              <div class="links">
+                <i class="fas fa-sign-out"></i>
+                <span>get started</span>
+              </div>
+            </a>
+
+            <a href="">
+              <div class="links">
+                <i class="fas fa-sun"></i>
+                <span>light mode</span>
+              </div>
+            </a>
+
+            <a href="sign_in.html">
+              <div class="links">
+                <i class="fas fa-sign-in"></i>
+                <span>sign in</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- RESPONSIVE HEADER -->
+
+    <!-- ABOUT SECTION STARTS -->
+    <section class="about" id="about">
+      <div class="about-us">
+        <div class="about-head">
+          <h2>about the odin project</h2>
+          <p>
+            The Odin Project is one of those "What I wish I had when I was
+            learning" resources. Not everyone has access to a computer science
+            education or the funds to attend an intensive coding school and
+            neither of those is right for everyone anyway. This project is
+            designed to fill in the gap for people who are trying to hack it on
+            their own but still want a high quality education.
+          </p>
+        </div>
+        <div class="about-head-2">
+          <h2>What you can expect at The Odin Project</h2>
+        </div>
+        <div class="expect">
+          <div class="imagee"><img src="images/roadmap.svg" alt="" /></div>
+          <div class="expect-desc">
+            <h3>A full roadmap to becoming a developer</h3>
+            <p>
+              Our free, comprehensive curriculum will equip you to be a full
+              stack developer, no matter your current experience level.
+            </p>
+          </div>
+        </div>
+
+        <div class="expect">
+          <div class="imagee"><img src="images/type.svg" alt="" /></div>
+          <div class="expect-desc">
+            <h3>Learn by doing</h3>
+            <p>
+              The most effective learning happens while building projects, so we
+              have strategically placed them throughout our curriculum. These
+              projects will make a strong portfolio for you to showcase on your
+              resume.
+            </p>
+          </div>
+        </div>
+
+        <div class="expect">
+          <div class="imagee"><img src="images/support.svg" alt="" /></div>
+          <div class="expect-desc">
+            <h3>Receive support from others</h3>
+            <p>
+              <a href="https://www.theodinproject.com/team">
+                The maintainers of the curriculum</a
+              >
+              run a Discord community, with the help of countless other
+              volunteers, where you can receive help with anything in our
+              curriculum.
+            </p>
+          </div>
+        </div>
+
+        <div class="expect">
+          <div class="imagee"><img src="images/world.svg" alt="" /></div>
+          <div class="expect-desc">
+            <h3>Open source and community driven</h3>
+            <p>
+              You can deepen your understanding and improve your GitHub skills
+              by contributing to our open source curriculum and helping others
+              in our Discord community.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="overview">
+      <div class="overview-head"><h2>overview of the odin project</h2></div>
+
+      <div class="overview-info">
+        <div class="overview-box">
+          <h3>1,275,986</h3>
+          <p>learners</p>
+        </div>
+        <div class="overview-box">
+          <h3>5000+</h3>
+          <p>contributors</p>
+        </div>
+        <div class="overview-box">
+          <h3>2013</h3>
+          <p>founded</p>
+        </div>
+      </div>
+
+      <div class="overviews">
+        <div class="overviews-box box-1">
+          <h3>Origin of The Odin Project</h3>
+          <p>
+            The Odin Project provides a free open source coding curriculum that
+            can be taken entirely online. Since its inception, it has helped
+            many students get hired as developers and has assisted countless
+            others in learning enough programming to work on their own personal
+            projects.
+          </p>
+          <p>
+            Erik Trautman founded The Odin Project in 2013. Currently it is
+            maintained and continually improved by a
+            <a href="https://www.theodinproject.com/team">team of volunteers </a
+            >many of whom learned to code with us. Many find success from Odin
+            Project's curriculum because of its hands-on approach with learning
+            and emphasis on building projects. The curriculum is meticulously
+            curated to ensure the content is up-to-date.
+          </p>
+        </div>
+
+        <div class="overviews-box box-2">
+          <a target="_blank" href="https://github.com/Jo-shua09">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <span>open source</span>
+          <p>
+            This website and the curriculum it hosts are completely open source.
+            That means anyone can work on new features or fix existing bugs on
+            the website. This also extends to the curriculum itself, anyone can
+            work on new lessons, add new resources and improve existing lessons.
+          </p>
+          <p>
+            The Odin Project would not be possible without the hard work of
+            contributors from all across the world. If you're interested in
+            helping us make The Odin Project better, please find out
+            <a href="https://www.theodinproject.com/contributing"
+              >how to contribute.</a
+            >
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="contact-us">
+        <div class="contact-gif box"><img src="images/odinn.gif" alt="" /></div>
+        <div class="contact-box box">
+          <h3>want to contact us?</h3>
+          <p>
+            Connect with our friendly community on discord, a chat and
+            networking platform or
+            <a href="mailto:joshuaonyeka2020@gmail.com">send us an email.</a>
+          </p>
+          <div class="btn-1">
+            <a target="_blank" href="https://discord.gg/fbFCkYabZB"
+              >chat on discord</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="donate-con">
+        <p>
+          If you want to give back to our community, you can do so by
+          contributing to our open source projects, or by supporting us
+          financially.
+        </p>
+        <div class="btnn">
+          <a href="https://www.theodinproject.com/contributing" class="btns"
+            >contribute</a
+          >
+          <a href="https://www.theodinproject.com/support_us" class="btns"
+            >donate</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT SECTION ENDS -->
+
+    <!-- FOOTER SECTION STARTS -->
+    <section class="footer" id="footer">
+      <div class="footer-bg">
+        <div class="footer-container">
+          <div class="footer-box">
+            <div class="footer-logo">
+              <a href="index.html">
+                <div class="logo">
+                  <img src="images/odin-icon.svg" alt="" />
+                </div>
+                <div class="logo-name">
+                  <h4>the odin project</h4>
+                </div>
+              </a>
+            </div>
+            <p>
+              High quality coding education maintained by an open source
+              community.
+            </p>
+            <div class="icons">
+              <a href="https://github.com/Jo-shua09?">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://discord.com/invite/fbFCkYabZB">
+                <i class="fa-brands fa-discord"></i>
+              </a>
+              <a href="https://web.facebook.com/theodinproject/?_rdc=1&_rdr">
+                <i class="fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com/jo_shua09">
+                <i class="fa-brands fa-x-twitter"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-box">
+            <h3>about us</h3>
+            <a href="about.html">about </a>
+            <a href="https://www.theodinproject.com/team">team </a>
+            <a target="_blank" href="https://dev.to/theodinproject">blog </a>
+            <a href="stories.html">success stories </a>
+          </div>
+
+          <div class="footer-box">
+            <h3>support</h3>
+            <a href="https://www.theodinproject.com/faq">FAQ </a>
+            <a href="https://www.theodinproject.com/contributing"
+              >contribute
+            </a>
+            <a href="about.html">contact us </a>
+          </div>
+
+          <div class="footer-box">
+            <h3>guides</h3>
+            <a href="https://www.theodinproject.com/guides/community"
+              >community guides
+            </a>
+            <a href="https://www.theodinproject.com/guides/installations"
+              >installation guides
+            </a>
+          </div>
+
+          <div class="footer-box">
+            <h3>legal</h3>
+            <a href="https://www.theodinproject.com/terms_of_use">terms</a>
+            <a href="https://www.theodinproject.com/privacy-policy">privacy</a>
+          </div>
+        </div>
+        <hr />
+        <div class="credits">
+          <p>cloned by <span>tuma.dev</span> | all rights reserved</p>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER SECTION ENDS -->
+
+    <!-- LOADER SECTION STARTS -->
+    <div class="loader-container">
+      <div class="circle"></div>
+      <p class="text">The Odin Project</p>
+    </div>
+    <!-- LOADER SECTION ENDS -->
     <!-- custom js link -->
     <script src="script.js"></script>
   </body>

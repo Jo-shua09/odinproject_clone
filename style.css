@@ -520,12 +520,14 @@ section.support {
   line-height: 2.5rem;
   padding-bottom: 4rem;
 }
+.contact .donate-con .btnn,
 .support .support-us .support-contents .buttons {
   display: flex;
   gap: 2rem;
   margin: 0 auto;
   justify-content: center;
 }
+.contact-us .contact-box .btn-1 a,
 .support .support-us .support-contents .buttons .btn-1 {
   padding: 1.5rem;
   font-size: var(--size-3);
@@ -533,21 +535,24 @@ section.support {
   font-size: 1.3rem;
   background-color: #fff;
   padding: var(--size-1) 2rem;
-  font-weight: var(--weight1);
+  font-weight: var(--weight2);
   letter-spacing: 0.15rem;
   text-align: center;
   border: 0.1rem solid var(--c2);
 }
-.support .support-us .support-contents .buttons .btn-1:hover {
-  background-color: #ffffff41;
-  letter-spacing: 0.2rem;
+.contact-us .contact-box .btn-1 a:hover,
+.support .support-us .support-contents .buttons .btn-1 a:hover {
+  letter-spacing: 0.4rem;
 }
+.contact-us .contact-box .btn-1 a,
 .support .support-us .support-contents .buttons .btn-1 a {
   color: var(--c2);
 }
+.contact .donate-con .btnn a,
 .support .support-us .support-contents .buttons .btn-2 a {
   color: var(--white);
 }
+.contact .donate-con .btnn a,
 .support .support-us .support-contents .buttons .btn-2 {
   border-radius: 0.5rem;
   font-size: 1.3rem;
@@ -560,7 +565,9 @@ section.support {
   letter-spacing: 0.15rem;
   text-align: center;
 }
+.contact .donate-con .btnn a:hover,
 .support .support-us .support-contents .buttons .btn-2:hover {
+  letter-spacing: 0.3rem;
   background-color: rgba(3, 45, 43, 0.838);
 }
 /* SUPPORT SECTION ENDS */
@@ -814,6 +821,179 @@ section.path {
   letter-spacing: 0.2rem;
 }
 /* PATH PAGE STYLES STARTS */
+
+/* ABOUT PAGE STYLES STARTS */
+section.about {
+  padding: 15rem 15%;
+  padding-bottom: 1%;
+}
+.about-head p {
+  font-size: var(--size-3);
+  line-height: 3rem;
+  text-transform: none;
+  font-weight: normal;
+  color: var(--c2);
+}
+.about-head-2 h2 {
+  font-weight: var(--weight1);
+  margin-top: 5rem;
+}
+.expect {
+  margin-top: 2rem;
+  display: flex;
+  gap: 3rem;
+  width: 100%;
+}
+.expect .expect-desc {
+  margin-bottom: 5rem;
+}
+.expect .expect-desc h3 {
+  font-size: var(--size-3);
+  color: var(--c2);
+  font-weight: var(--weight3);
+}
+.expect .expect-desc p {
+  font-size: var(--size-2);
+  font-weight: normal;
+  line-height: 2.5rem;
+  padding-top: 1.5rem;
+  text-transform: none;
+}
+p a {
+  text-decoration: underline;
+}
+
+section.overview {
+  background-color: #f3f4f6;
+}
+.overview-info {
+  display: flex;
+  margin-top: 2rem;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 3rem;
+  text-align: center;
+  justify-content: center;
+}
+.overview-info .overview-box {
+  width: 100%;
+  flex: 1 1 30rem;
+  padding: 3rem;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  background-color: var(--white);
+  border-radius: 0.5rem;
+}
+.overview-info .overview-box h3 {
+  font-size: var(--size-4);
+  padding-bottom: 0.2rem;
+  color: var(--c2);
+  font-weight: var(--weight3);
+}
+.overview-info .overview-box p {
+  font-size: var(--size-2);
+  color: var(--c2);
+  font-weight: normal;
+}
+.overviews {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  margin-top: 5rem;
+  width: 100%;
+}
+.overviews .box-1 {
+  flex: 1 1 45rem;
+  width: 100%;
+}
+.overviews .box-2 {
+  flex: 1 1 20rem;
+  width: 100%;
+}
+.overviews .overviews-box {
+  padding: 3rem;
+  padding-bottom: 5rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  background-color: var(--white);
+}
+.overviews .overviews-box h3,
+.overviews .overviews-box span {
+  font-size: var(--size-4);
+  font-weight: var(--weight3);
+  color: var(--c2);
+  padding-bottom: 2rem;
+}
+.overviews .overviews-box p {
+  line-height: 3rem;
+  font-weight: normal;
+  padding-top: 2rem;
+  font-size: var(--size-2);
+  text-transform: none;
+}
+.overviews .overviews-box i {
+  font-size: 3rem;
+  color: var(--c2);
+  font-weight: var(--weight4);
+  margin-right: 1rem;
+  padding-bottom: 2rem;
+}
+
+section.contact {
+  padding: 10rem 15%;
+}
+.contact-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+  width: 100%;
+}
+.contact-us .contact-gif {
+  width: 100%;
+  flex: 1 1 45rem;
+  margin: 3rem 0;
+}
+.contact-us .contact-box {
+  width: 100%;
+  flex: 1 1 30rem;
+}
+.contact-us .box img {
+  width: 100%;
+}
+.contact-us .contact-box h3 {
+  font-size: var(--size-4);
+  padding-bottom: 1.5rem;
+  font-weight: var(--weight3);
+  color: var(--c2);
+}
+.contact-us .contact-box p {
+  font-size: var(--size-2);
+  padding-bottom: 1.5rem;
+  font-weight: normal;
+  line-height: 2.5rem;
+  color: var(--c2);
+  text-transform: none;
+  padding-bottom: 3rem;
+}
+
+.contact .donate-con {
+  margin-top: 3rem;
+  align-items: center;
+  text-align: center;
+}
+.contact .donate-con p {
+  font-size: var(--size-2);
+  font-weight: normal;
+  color: var(--c2);
+  text-transform: none;
+  line-height: 2.5rem;
+  padding: 0 5rem;
+}
+.contact .donate-con .btnn {
+  margin-top: 2rem;
+}
+
+/* ABOUT PAGE STYLES ENDS */
 
 /* LOADER SECTION */
 .loader-container {
