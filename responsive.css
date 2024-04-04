@@ -111,6 +111,12 @@
   nav {
     width: 70%;
   }
+  .home {
+    height: 100vh;
+  }
+  .home img {
+    height: 40vh;
+  }
   .support .support-us .support-contents p {
     width: 100%;
   }
@@ -134,5 +140,13 @@
   }
   .signIn_form {
     width: 90%;
+  }
+  .course-bg {
+    padding: 7rem 2.5rem;
+  }
+  .course .course-container .course-box {
+    flex: 1 1 45rem;
+    height: 30rem;
+    width: 100%;
   }
 }
