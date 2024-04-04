@@ -590,7 +590,7 @@ section.footer {
   flex-wrap: wrap;
   gap: 3rem;
   width: 100%;
-  padding: 4rem;
+  padding: 3rem;
 }
 .footer-container .footer-box:nth-child(1) {
   flex: 1 1 30rem;
